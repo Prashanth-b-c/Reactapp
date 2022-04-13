@@ -1,0 +1,42 @@
+.header {
+    /* text-align: center; */
+    margin: 0;
+    border-bottom: 2px solid #080808;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1px;
+    color: blueviolet;
+    
+}
+
+.homepage-appbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 1ovh;
+    background: rgb(73, 79, 82);
+    /* color: white; */
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.app{
+    background:#a64ac9;
+    padding: 300px 0;
+    min-height: 100%;
+}
+
+
+.data{
+    font-size: 60px;
+}

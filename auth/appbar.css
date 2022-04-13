@@ -1,0 +1,45 @@
+.header {
+    /* text-align: center; */
+    margin: 0;
+    border-bottom: 2px solid #080808;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1px;
+    color: blueviolet;
+
+}
+
+.homepage-appbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 1ovh;
+    background: rgb(73, 79, 82);
+    /* color: white; */
+    width: 100%;
+    flex-direction: row;
+
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+img {
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
+    padding: 5px;
+    margin: auto;
+}
+
+.app1{
+    background-color: #3b8beb;
+}
